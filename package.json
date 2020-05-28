@@ -5,5 +5,11 @@
   "repository": "https://github.com/sandyklark/ffmpeg-overlay-prototyping.git",
   "author": "Bill Spooner <bill.spooner@endemolshine.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "execa": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  }
 }
